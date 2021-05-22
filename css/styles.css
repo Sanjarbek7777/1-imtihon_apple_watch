@@ -1,0 +1,413 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@font-face {
+  font-family: "Roboto", "Arial", sans-serif;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+      url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", "Arial", sans-serif;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+      url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container{
+  max-width: 1000px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.input_how_can{
+  border: none;
+  border-bottom: 1px solid #333333;
+  transform: rotate(0.16deg);
+  width: 158px;
+  padding-bottom: 6px;
+}
+
+.site-navigatsiya{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.nav-ul a{
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+}
+
+
+.site-header-title{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-top: 170px;
+  margin-bottom: 30px;
+
+}
+
+.site-header-text{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 450px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.site-header-btn{
+  font-family: "Roboto", "Arial", sans-serif;
+  background: #EA625C;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 38px;
+}
+
+.smart_watch{
+  margin: 0;
+  padding: 0;
+  margin-left: 245px;
+  margin-top: 85px;
+}
+
+.site-header-content{
+  display: flex;
+}
+
+.site-header-hr{
+  width: 100%;
+}
+
+.know{
+  list-style: none;
+  margin-top: 68px;
+}
+
+.know-title{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.know-text{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.know-span{
+  background: #DDDDDD;
+  width: 8px;
+  height: 8px;
+}
+
+.know-span-flex{
+  display: flex;
+}
+
+.run{
+  list-style: none;
+  margin-top: 68px;
+}
+
+.run-title{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.run-text{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.just{
+  list-style: none;
+  margin-top: 68px;
+}
+
+.just-title{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.just-text{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 288px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.just-link{
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 99px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #EA625C;
+
+}
+
+
+.section-flex{
+  display: flex;
+  margin-left: -40px;
+}
+
+.run-div{
+  margin-left: 40px;
+}
+
+.just-div{
+  margin-left: 40px;
+}
+
+.know-span-flex{
+  margin-left: 40px;
+}
+
+.right{
+  margin-left: 10px;
+}
+
+.nike-title{
+  font-family: "Roboto",
+  "Arial", sans-serif;
+  width: 403px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-top: 246px;
+}
+
+.nike-text{
+  font-family: "Roboto",
+  "Arial", sans-serif;
+  width: 450px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  margin: 0;
+  margin-top: 30px;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+}
+
+.nike-button{
+  background: #EA625C;
+  color: #FFFFFF;
+  font-family: "Roboto",
+  "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 90px;
+  border: none;
+  margin: 0;
+  margin-top: 42px;
+}
+
+.section-nike{
+  display: flex;
+}
+
+.nike-img{
+  margin: 0;
+  margin-top: 140px;
+  margin-left: 135px;
+}
+
+
+
+.site-footer{
+  margin-top: 70px;
+  background-image: url("../img/runners-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.take-title{
+  font-family: "Roboto",
+  "Arial", sans-serif;
+  width: 490px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.take-text{
+  width: 450px;
+  font-family: "Roboto",
+  "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.take-link{
+font-family: "Roboto",
+  "Arial", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+background: #EA625C;
+padding: 12px 46px;
+}
+
+.footer-content{
+  padding-top: 285px;
+  padding-left: 519px;
+  padding-bottom: 215px;
+
+}
+
+.site-header-btn:hover{
+  background:  #FFFFFF;
+  color: #EA625C;
+}
+
+.nike-button:hover{
+  background:  #FFFFFF;
+  color: #EA625C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
